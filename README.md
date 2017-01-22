@@ -59,11 +59,7 @@ underneath. It's for `openvpn`.
 
 ### Contributing
 
-All patches welcome! Please run [coala](https://coala.io) over the code before, however:
-
-```bash
-$ coala
-```
+All patches welcome!
 
 ### Disclaimer
 
