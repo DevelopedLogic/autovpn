@@ -54,7 +54,7 @@ in Japan:
 $ ./autovpn JP
 ```
 
-You may need superuser priviliges. Don't worry, I'm not running `rm -rf --no-preserve-root /`
+You may need superuser privileges. Don't worry, I'm not running `rm -rf --no-preserve-root /`
 underneath. It's for `openvpn`.
 
 ### Contributing
