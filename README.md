@@ -16,7 +16,7 @@ $ cd autovpn
 Then run this to generate the executable:
 
 ```bash
-$ go build autovpn
+$ go build autovpn.go
 ```
 
 It's Go. What do you expect?
