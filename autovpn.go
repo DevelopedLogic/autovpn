@@ -54,7 +54,8 @@ func main() {
 		}
 
 		fmt.Printf("[autovpn] writing config file\n")
-		ioutil.WriteFile("/tmp/openvpnconf", conf, 0664)
+		err = ioutil.WriteFile("/tmp/openvpnconf", conf, 0664)
+		check(err)
 		fmt.Printf("[autovpn] running openvpn\n")
 
 		cmd := exec.Command("sudo", "openvpn", "/tmp/openvpnconf")
