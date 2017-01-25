@@ -36,10 +36,10 @@ func main() {
 	fmt.Printf("[autovpn] parsing response\n")
 	fmt.Printf("[autovpn] looking for %s\n", chosenCountry)
 
-	first := false
+	counter := 0
 	for scanner.Scan() {
-		if first == false {
-			first = true
+		if counter <= 1 {
+			counter++
 			continue
 		}
 		splits := strings.Split(scanner.Text(), ",")
