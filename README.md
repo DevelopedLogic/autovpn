@@ -1,5 +1,11 @@
 # autovpn
 
+**THIS PROJECT IS UNMAINTAINED.**  
+I wrote this a long time ago and I do not use or maintain this script any more.
+Using this will very likely cause permanent nuclear winter everywhere, so just
+look for something better, alright? I'll likely delete the project soon so that
+I don't distribute potentially insecure tools.
+
 `autovpn` is a tool to automatically connect you to a random VPN in a country
 of your choice. It uses [openvpn][openvpn] to connect you to a server obtained
 from [VPN Gate](http://www.vpngate.net/en/).
